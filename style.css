@@ -20,8 +20,38 @@ nav > li {
   font-size: x-large;
   font-weight: 500;
 }
+nav > li > ul {
+  padding: 2px;
+}
+nav > li > ul:hover {
+  background-color: gainsboro;
+  border-radius: 12px;
+}
 nav > li :last-child {
   padding: 2px;
   background-color: black;
   color: white;
+  border-radius: 12px;
+}
+nav > input {
+    border-radius: 12px;
+}
+
+@media (max-width: 1023px) {
+  ul {
+    display: none;
+  }
+  nav {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav > img {
+    display: none;
+  }
+  nav > input {
+    display: none;
+  }
+
 }
