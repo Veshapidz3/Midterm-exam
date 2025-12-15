@@ -1,0 +1,7 @@
+.mainimg {
+    padding: 0px 100px;
+  width: calc( 100% - 200px);
+}
+.mainimg > img {
+    object-fit: cover;
+}
