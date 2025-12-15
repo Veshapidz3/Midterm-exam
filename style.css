@@ -1,0 +1,27 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  /* background-color: rgb(255, 89, 89); */
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  position: sticky;
+  top: 0px;
+}
+
+nav > li {
+  display: flex;
+  gap: 12px;
+  font-size: x-large;
+  font-weight: 500;
+}
+nav > li :last-child {
+  padding: 2px;
+  background-color: black;
+  color: white;
+}
