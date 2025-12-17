@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(51, 51, 51);
+}
+.header {
+    background: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-bottom: 2px solid rgb(238, 238, 238);
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+.nav-menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+}
+.nav-menu a:hover {
+    color: rgb(255, 69, 0);
+}
+.hero-section {
+    background: url('https://tsiskvili.ge/files/YYhfYZ1EGXVK.jpg') center/cover no-repeat;
+    padding: 100px 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.hero-section h1 {
+    font-size: 2.8rem;
+}
+.hero-section p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.grid-section {
+    display: grid;
+    gap: 30px;
+    padding: 40px 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.grid-item {
+    background: rgb(249, 249, 249);
+    padding: 20px;
+    border-radius: 8px;
+}
+.grid-item h2 {
+    margin-bottom: 10px;
+    color: rgb(34, 34, 34);
+}
+.grid-item p,
+.grid-item ul {
+    font-size: 1rem;
+}
+.grid-item ul li {
+    list-style: disc inside;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 70px 20px;
+    }
+    .nav-menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
