@@ -1,0 +1,166 @@
+.contacts-hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-image: url('https://www.bing.com/maps/geoplat/REST/v1/Imagery/Map/RoadVibrant/41.730833,44.806746/10?ms=1182,513&sv=9.43&heid=7254940825358958593,707070&ml=Basemap,LandCover,Landmarks,OsmBuildings&key=AnTcaqBi2ypp0xI-OZNi4W_ik2KhjgpqioTAtXLC8GzkMBQRMlyxvxyTnd5b73im&c=en-US&dpi=Large&fmt=jpeg&od=1&shading=hill&logo=n&da=ro');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.contacts-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 0;
+}
+
+.contacts-hero h1,
+.contacts-hero p {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+.contacts-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.contacts-hero p {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.contacts-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-item {
+    background-image: url('https://lh3.googleusercontent.com/p/AF1QipMZsN3ROCwNUnE2Q9PTx_-m8fG8s8unjR9Mh3ph=s1360-w1360-h1020-rw');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.contact-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.contact-item h3,
+.contact-item p {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+.contacts-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.contacts-info p {
+    font-size: 1rem;
+    color: white;
+}
+
+.dishes-hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: rgb(247, 247, 247);
+}
+
+.dishes-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.dishes-hero p {
+    font-size: 1.1rem;
+    color: rgb(85, 85, 85);
+}
+
+.dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    padding: 50px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.dish-item {
+    text-align: center;
+}
+
+.dish-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.dish-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.dish-item p {
+    font-size: 1rem;
+    color: rgb(85, 85, 85);
+}
+
+@media (max-width: 768px) {
+    .contacts-hero {
+        padding: 60px 15px;
+    }
+    .contacts-hero h1 {
+        font-size: 2rem;
+    }
+    .contacts-hero p {
+        font-size: 1rem;
+    }
+    .contacts-info {
+        gap: 20px;
+        padding: 30px 15px;
+    }
+    .contact-item {
+        padding: 20px;
+    }
+    .dishes-hero {
+        padding: 60px 15px;
+    }
+    .dishes-hero h1 {
+        font-size: 2rem;
+    }
+    .dishes-hero p {
+        font-size: 1rem;
+    }
+    .dishes-grid {
+        gap: 20px;
+        padding: 30px 15px;
+    }
+    .dish-item img {
+        height: 200px;
+    }
+}
