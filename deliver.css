@@ -1,0 +1,14 @@
+.deliver {
+  display: grid;
+  padding: 20px 20px;
+  height: 60vh;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.box16 {
+  display: grid;
+  background-color: red;
+}
+.box17 {
+  background-color: aqua;
+}
