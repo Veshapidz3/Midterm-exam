@@ -1,7 +1,7 @@
 .locations {
-  padding: 0 100px;
+  padding: 20px 20px;
   height: 500px;
-  width: calc(100%-200px);
+  width: calc(100%);
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -20,67 +20,238 @@
   grid-row-start: 2;
   grid-row-end: 6;
   background-image: url(https://tsiskvili.ge/files/%E1%83%AC%E1%83%98%E1%83%A1%E1%83%A5%E1%83%95%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1-%E1%83%A1%E1%83%90%E1%83%98%E1%83%A2%E1%83%98.png.png);
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: large;
   padding: 10px;
   border-radius: 12px;
+  color: white;
 }
 
 .box3 {
   grid-row-start: 2;
   grid-row-end: 6;
   background-image: url(https://tsiskvili.ge/files/19764_%E1%83%9B%E1%83%AA%E1%83%AE%E1%83%94%E1%83%97%E1%83%902.png.png);
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: large;
   padding: 10px;
   border-radius: 12px;
+  color: white;
 }
 .box4 {
   grid-row-start: 2;
   grid-row-end: 6;
   background-image: url(https://tsiskvili.ge/files/jLb9fSAVLmBU.png);
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: large;
   padding: 10px;
   border-radius: 12px;
+  color: white;
 }
 .box5 {
   grid-row-start: 2;
   grid-row-end: 6;
   background-image: url(https://tsiskvili.ge/files/E5k2gGjo3cyt.png);
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: large;
   padding: 10px;
   border-radius: 12px;
+  color: white;
 }
 .box6 {
   grid-row-start: 2;
   grid-row-end: 6;
   background-image: url(https://tsiskvili.ge/files/FCfi8KSkp3Tu.jpg);
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: large;
   padding: 10px;
   border-radius: 12px;
+  color: white;
+}
+.morelocation {
+  padding: 5px 20px;
+  font-size: larger;
+}
+.morelocation > a {
+  text-decoration: none;
+  color: black;
+}
+
+.morelocation > a:hover {
+  text-decoration: underline;
+}
+
+.location-grid {
+  padding: 20px;
+  height: 1600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.box7 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-image: url(https://tsiskvili.ge/files/XpOFJBEgTfx7.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.box8 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-image: url(https://tsiskvili.ge/files/23556_ZQRqZR10DXbQ.webp.webp);
+  background-size: cover;
+
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.box9 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-image: url(https://tsiskvili.ge/files/G7ZTbQncGsg3.webp);
+  background-size: cover;
+
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.box10 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-image: url(https://tsiskvili.ge/files/jLb9fSAVLmBU.png);
+  background-size: cover;
+
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.box11 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-image: url(https://tsiskvili.ge/files/%E1%83%AC%E1%83%98%E1%83%A1%E1%83%A5%E1%83%95%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1-%E1%83%A1%E1%83%90%E1%83%98%E1%83%A2%E1%83%98.png.png);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.box12 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-image: url(https://tsiskvili.ge/files/E5k2gGjo3cyt.png);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.box13 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-image: url(https://tsiskvili.ge/files/FCfi8KSkp3Tu.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.box14 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-image: url(https://tsiskvili.ge/files/19764_%E1%83%9B%E1%83%AA%E1%83%AE%E1%83%94%E1%83%97%E1%83%902.png.png);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.box15 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  background-image: url(https://tsiskvili.ge/files/%E1%83%97%E1%83%94%E1%83%90%E1%83%A2%E1%83%A0%E1%83%983.png.png);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.location-content {
+  position: relative;
+}
+.location-photo-text {
+  position: absolute;
+  top: 265px;
+  left: 400px;
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
 }
 
 @media (max-width: 1023px) {
-    .locations {
-        display: flex;
-        flex-direction: column;
-    }
+  .locations {
+    display: flex;
+    flex-direction: column;
+  }
 }
